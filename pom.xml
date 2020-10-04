@@ -14,6 +14,15 @@
     <artifactId>pdf-converter</artifactId>
     <version>1.0.0</version>
 
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub m-boutaleb Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/m-boutaleb/word-to-pdf-converter</url>
+   </repository>
+</distributionManagement>
+
+
     <name>PdfConverter</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
